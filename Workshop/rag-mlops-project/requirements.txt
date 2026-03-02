@@ -1,0 +1,40 @@
+# Core LLM & RAG
+langchain==0.1.0
+langchain-community==0.0.10
+openai==1.10.0
+tiktoken==0.5.2
+
+# Vector Database
+chromadb==0.4.22
+sentence-transformers==2.3.1
+
+# Data Processing
+pypdf==4.0.1
+python-docx==1.1.0
+pandas==2.1.4
+
+# API & Deployment
+fastapi==0.109.0
+uvicorn==0.27.0
+pydantic==2.5.3
+
+# MLOps & Monitoring
+mlflow==2.10.0
+prometheus-client==0.19.0
+wandb==0.16.2
+
+# Testing & Quality
+pytest==7.4.4
+pytest-cov==4.1.0
+black==24.1.1
+flake8==7.0.0
+
+# Visualization
+streamlit==1.31.0
+plotly==5.18.0
+scikit-learn==1.4.0
+rich==13.7.0
+
+# Utilities
+python-dotenv==1.0.0
+requests==2.31.0

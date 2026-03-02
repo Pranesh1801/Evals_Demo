@@ -1,0 +1,11 @@
+Artificial Intelligence and Machine Learning
+
+Artificial Intelligence (AI) is the simulation of human intelligence by machines. Machine Learning (ML) is a subset of AI that enables systems to learn from data.
+
+Deep Learning uses neural networks with multiple layers to process complex patterns. Natural Language Processing (NLP) allows computers to understand human language.
+
+Retrieval Augmented Generation (RAG) combines information retrieval with text generation. It retrieves relevant documents and uses them as context for language models.
+
+Vector databases store embeddings - numerical representations of text. These enable semantic search based on meaning rather than keywords.
+
+MLOps applies DevOps practices to machine learning systems. It includes experiment tracking, model versioning, and automated deployment pipelines.
