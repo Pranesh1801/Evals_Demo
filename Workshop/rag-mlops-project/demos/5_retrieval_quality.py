@@ -9,15 +9,33 @@ st.set_page_config(page_title="Demo 5: Retrieval Quality", layout="wide")
 st.title("📈 Demo 5: Retrieval Quality Metrics")
 st.markdown("**Shows how to measure and evaluate RAG retrieval performance**")
 
+# SAMPLE_DOCS = [
+#     {"text": "Machine learning is a subset of AI that enables systems to learn from data.", "relevant": True},
+#     {"text": "Deep learning uses neural networks with multiple layers.", "relevant": True},
+#     {"text": "Natural Language Processing allows computers to understand human language.", "relevant": False},
+#     {"text": "Retrieval Augmented Generation combines retrieval with text generation.", "relevant": False},
+#     {"text": "Supervised learning uses labeled data to train models.", "relevant": True},
+#     {"text": "Unsupervised learning finds patterns in unlabeled data.", "relevant": True},
+#     {"text": "Reinforcement learning learns through trial and error.", "relevant": True},
+#     {"text": "Vector databases store embeddings for semantic search.", "relevant": False},
+# ]
+
 SAMPLE_DOCS = [
-    {"text": "Machine learning is a subset of AI that enables systems to learn from data.", "relevant": True},
-    {"text": "Deep learning uses neural networks with multiple layers.", "relevant": True},
-    {"text": "Natural Language Processing allows computers to understand human language.", "relevant": False},
-    {"text": "Retrieval Augmented Generation combines retrieval with text generation.", "relevant": False},
-    {"text": "Supervised learning uses labeled data to train models.", "relevant": True},
-    {"text": "Unsupervised learning finds patterns in unlabeled data.", "relevant": True},
-    {"text": "Reinforcement learning learns through trial and error.", "relevant": True},
-    {"text": "Vector databases store embeddings for semantic search.", "relevant": False},
+    {"text": "Machine learning is a subset of artificial intelligence that enables systems to learn from data without being explicitly programmed, allowing algorithms to automatically improve their performance as they process more examples and refine internal patterns.", "relevant": True},
+
+    {"text": "Deep learning uses multilayer neural networks to extract increasingly abstract features from raw data, enabling models to interpret images, understand speech, and recognize complex relationships.", "relevant": True},
+
+    {"text": "Natural Language Processing allows computers to understand, interpret, generate, and interact with human language by combining linguistic rules with machine learning methods for tasks such as translation, sentiment analysis, summarization, and conversational AI.", "relevant": False},
+
+    {"text": "Retrieval Augmented Generation combines information retrieval with generative modeling so that an AI system first fetches relevant documents and then produces grounded responses, reducing hallucinations and strengthening factual accuracy within machine learning workflows.", "relevant": False},
+
+    {"text": "Vector databases store high dimensional embedding vectors representing text, images, or other data, enabling fast semantic search based on meaning rather than keywords—an essential component in modern machine learning and RAG systems.", "relevant": False},
+
+    {"text": "Transformers are neural network architectures built on self attention mechanisms, allowing models to capture long range dependencies efficiently, revolutionizing machine learning areas such as NLP, computer vision, and multimodal reasoning.", "relevant": True},
+
+    {"text": "Fine tuning adapts large pre trained models to specialized tasks by training them on smaller, domain specific datasets, helping machine learning systems deliver high accuracy in areas like medical classification, law, finance, and enterprise search.", "relevant": True},
+
+    {"text": "Prompt engineering designs and structures input prompts to guide large language models toward desired behaviors, helping machine learning systems produce clearer, more reliable, and context appropriate outputs through formatting, constraints, and examples.", "relevant": True},
 ]
 
 @st.cache_resource
